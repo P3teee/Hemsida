@@ -1,7 +1,56 @@
+body{
+	background-image: url(C:/Users/bepe14/Documents/GitHub/Hemsida/Performance.png);
+}
+
 #swag {
 	border: solid 2px #f1f;
 	width: 20%;
 	margin: auto auto;
 	border-radius: 7px;
 	text-align: center;
+
+}
+
+#yolo {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	background-color: #333;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.list a{
+	display: block;
+	color: #ddd;
+	padding: 8px 8px;
+	text-decoration: none;
+}
+
+.list a:hover{
+	background-color: #505;
+	border-radius: 10px;
+}
+
+#main {
+	border: dotted 3px #22f;
+	height: 200px;
+	width: 50%;
+	margin: auto auto;
+	background-color: #5b2;
+	overflow: auto;
+}
+
+#right {
+	border: solid 1px #000;
+	float: right;
+	height: 120px;
+	width: 10%;
+	background-color: #333;
+}
+
+#right img {
+	width: 100%;
 }
